@@ -85,15 +85,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRq-Hb-w3e">
-                                <rect key="frame" x="20" y="508" width="374" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <rect key="frame" x="20" y="501" width="374" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zNf-NN-Wum">
-                                <rect key="frame" x="0.0" y="44" width="414" height="444"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="437"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UrC-Zi-bOh">
+                                <rect key="frame" x="303" y="564" width="91" height="50.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="42"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -101,16 +107,19 @@
                             <constraint firstItem="zNf-NN-Wum" firstAttribute="trailing" secondItem="faw-NA-uSP" secondAttribute="trailing" id="Fi9-05-uyh"/>
                             <constraint firstItem="qRq-Hb-w3e" firstAttribute="leading" secondItem="faw-NA-uSP" secondAttribute="leading" constant="20" id="IK0-Bg-zVG"/>
                             <constraint firstItem="faw-NA-uSP" firstAttribute="bottom" secondItem="qRq-Hb-w3e" secondAttribute="bottom" constant="318" id="fD0-6t-iQG"/>
+                            <constraint firstItem="UrC-Zi-bOh" firstAttribute="top" secondItem="qRq-Hb-w3e" secondAttribute="bottom" constant="20" id="fW6-h7-Bci"/>
                             <constraint firstItem="faw-NA-uSP" firstAttribute="trailing" secondItem="qRq-Hb-w3e" secondAttribute="trailing" constant="20" id="nuc-0N-Ob2"/>
                             <constraint firstItem="zNf-NN-Wum" firstAttribute="top" secondItem="faw-NA-uSP" secondAttribute="top" id="o5s-sl-eC0"/>
                             <constraint firstItem="zNf-NN-Wum" firstAttribute="leading" secondItem="faw-NA-uSP" secondAttribute="leading" id="rjy-il-7Sw"/>
+                            <constraint firstItem="faw-NA-uSP" firstAttribute="trailing" secondItem="UrC-Zi-bOh" secondAttribute="trailing" constant="20" id="xeV-1K-gmx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="faw-NA-uSP"/>
                     </view>
                     <navigationItem key="navigationItem" id="SDA-OV-yI9"/>
                     <connections>
-                        <outlet property="DImage" destination="zNf-NN-Wum" id="eeO-N3-Fzw"/>
-                        <outlet property="DLabel" destination="qRq-Hb-w3e" id="c2c-mv-Taa"/>
+                        <outlet property="imageView" destination="zNf-NN-Wum" id="eeO-N3-Fzw"/>
+                        <outlet property="nameLabel" destination="qRq-Hb-w3e" id="c2c-mv-Taa"/>
+                        <outlet property="priceLabel" destination="UrC-Zi-bOh" id="2z0-q2-Dpf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5qC-Yi-oxS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

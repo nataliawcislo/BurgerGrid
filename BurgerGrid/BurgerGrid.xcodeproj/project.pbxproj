@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F83C73123CB313D00CB651A /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F83C73023CB313D00CB651A /* Burger.swift */; };
+		7F39083623CDF60700F96D46 /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F39083523CDF60700F96D46 /* Burger.swift */; };
 		7F9A89D823C3EBF300281F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A89D723C3EBF300281F44 /* AppDelegate.swift */; };
 		7F9A89DA23C3EBF300281F44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A89D923C3EBF300281F44 /* SceneDelegate.swift */; };
 		7F9A89DC23C3EBF300281F44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A89DB23C3EBF300281F44 /* ViewController.swift */; };
@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7F83C73023CB313D00CB651A /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		7F39083523CDF60700F96D46 /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
 		7F9A89D423C3EBF300281F44 /* BurgerGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F9A89D723C3EBF300281F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F9A89D923C3EBF300281F44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 				7F9A89E523C3EBF600281F44 /* Info.plist */,
 				7F9A8A0723C3EF9F00281F44 /* CollectionViewCell.swift */,
 				7FB3370E23C763C700A6A062 /* DetailViewController.swift */,
-				7F83C73023CB313D00CB651A /* Burger.swift */,
+				7F39083523CDF60700F96D46 /* Burger.swift */,
 			);
 			path = BurgerGrid;
 			sourceTree = "<group>";
@@ -268,7 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F83C73123CB313D00CB651A /* Burger.swift in Sources */,
+				7F39083623CDF60700F96D46 /* Burger.swift in Sources */,
 				7F9A89DC23C3EBF300281F44 /* ViewController.swift in Sources */,
 				7F9A89D823C3EBF300281F44 /* AppDelegate.swift in Sources */,
 				7FB3370F23C763C700A6A062 /* DetailViewController.swift in Sources */,
