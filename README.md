@@ -10,9 +10,8 @@ iOS Development Target: iOS 13.2
 collectionView()
 
 # Features- swipe gestures
-handleSwipe()
+handleSwipe()     
 animateImageView()
-
 
 # Style - Swipe gestures
 ![text](https://github.com/nataliawcislo/BurgerGrid/blob/master/grid.gif)
@@ -23,5 +22,5 @@ animateImageView()
 # Style - GridView
 ![text](https://github.com/nataliawcislo/BurgerGrid/blob/master/Grid.png)
 
-# Style - Individual elements
+# Style - Cell
 ![text](https://github.com/nataliawcislo/BurgerGrid/blob/master/Burger.png)
